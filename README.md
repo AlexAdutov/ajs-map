@@ -1,5 +1,9 @@
 # Домашнее задание к лекции «Контейнеры»
 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/lp21h7dpwdpim4sr?svg=true)](https://ci.appveyor.com/project/AlexAdutov/ajs-map)
+
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.
