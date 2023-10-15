@@ -1,6 +1,15 @@
-// TODO: write your code here
-import sum from './basic';
+export default class ErrorRepository {
+  constructor() {
+    this.map = new Map([
+      [1, 'Ошибка инициализации пользователя'],
+      [2, 'Проблемы на сервере'],
+    ]);
+  }
 
-console.log('worked');
-
-console.log(sum([1, 2]));
+  translate(code) {
+    if (this.map.has(code)) {
+      return this.map.get(code);
+    }
+    return 'Unknown error';
+  }
+}
